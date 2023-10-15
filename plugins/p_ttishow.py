@@ -9,7 +9,7 @@ from Script import script
 from pyrogram.errors import ChatAdminRequired
 import asyncio 
 
-"""-----------------------------------------https://t.me/netflix_india_007--------------------------------------"""
+"""-----------------------------------------https://t.me/Praveen00712--------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -41,7 +41,7 @@ async def save_group(bot, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                  ],[
-                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/netflix_india_007")
+                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Praveen00712")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -64,14 +64,14 @@ async def save_group(bot, message):
                                                                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                                                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                                                                         ],[
-                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/netflix_india_007")
+                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Praveen00712")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
                 )
                 
         if settings["auto_delete"]:
-            await asyncio.sleep(600)
+            await asyncio.sleep(300)
             await (temp.MELCOW['welcome']).delete()
                 
                
@@ -90,7 +90,7 @@ async def leave_a_chat(bot, message):
     try:
         buttons = [[
             InlineKeyboardButton('Support ', url=SPRT_CHNL),
-            InlineKeyboardButton('Owner', url="t.me/netflix_india_007")
+            InlineKeyboardButton('Owner', url="t.me/Praveen00712")
         ],[
             InlineKeyboardButton('Use Me Here', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
